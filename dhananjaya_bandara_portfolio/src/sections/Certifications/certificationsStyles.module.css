@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.certificatesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.certCard {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.07);
+  padding: 24px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 250px;
+  max-width: 350px;
+}
+
+.certTitle {
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+  color: #222;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.certLink {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 200ms;
+  margin-top: 8px;
+}
+
+.certLink:hover {
+  transform: scale(1.05);
+}
+.certImage {
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
